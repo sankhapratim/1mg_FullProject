@@ -1,0 +1,109 @@
+.first_div {
+    /* position: absolute; */
+}
+
+.img {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+}
+
+.main_h1 {
+    color: white;
+    position: relative;
+    top: 180px;
+
+}
+
+.second_div {
+    width: 100%;
+    background-color: rgba(214, 213, 213, 0.5);
+    margin-top: 460px;
+    padding: 30px;
+}
+
+.grid {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    justify-content: start;
+    gap: 8px;
+
+}
+
+.grid div {
+    width: 350px;
+}
+
+.leader_every {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+}
+
+.avatar {
+    margin: auto;
+    margin-left: 200px;
+}
+
+/* .icon{
+    padding: 20px;
+} */
+
+.icn {
+    padding: 10px;
+}
+
+.middle {
+    width: 100%;
+
+}
+
+.im {
+    width: 100%;
+    position: absolute;
+    left: 0;
+    right: 0;
+    margin-bottom: 300px;
+}
+
+.main_h {
+    position: relative;
+
+    color: white;
+   
+    top: 180px;
+
+    padding-left: 100px;
+    padding-right: 100px;
+    text-align: left;
+}
+
+
+.main_h5{
+    position: relative;
+
+    color: white;
+   
+    top: 180px;
+    padding-left: 100px;
+    padding-right: 100px;
+    text-align: left;
+}
+
+.banner_bottom {
+    margin-top: 390px;
+}
+
+.midd{
+    height: 100%;
+    width: 100%;
+}
+
+.playstore{
+    margin: 50px;
+    
+}
+
+.pd{
+    padding: 20px;
+}

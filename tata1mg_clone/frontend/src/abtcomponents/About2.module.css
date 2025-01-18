@@ -1,0 +1,134 @@
+.container{
+    height: 417.13px;
+    width: 1028px;
+    /* border: 1px solid black; */
+    padding: 30px;
+    margin-left: 20%;
+    background-color: #ffffff;
+    justify-content: center;
+}
+.container_box{
+    height: 417.13px;
+    width: 828px;
+    /* background-color: #ffffff; */
+    /* border: 1px solid black; */
+    /* justify-content: center; */
+}
+.container1{
+    height: 100px;
+    width: 788px;
+    /* border: 1px solid black; */
+    display: flex;
+    margin-top: 80px;
+    margin-left: 20px;
+    background-color: #ffffff;
+}
+.container2{
+    height: 137.13px;
+    width: 788px;
+    /* border: 1px solid black; */
+    display: flex;
+    margin-top: 40px;
+    margin-left: 20px;
+    background-color: #ffffff;
+}
+.img1{
+    height: 100px;
+    width: 204.5px;
+    /* border: 1px solid red; */
+}
+.img1 img{
+    height: 100px;
+    width: 150.5px;
+    
+}
+
+.img2{
+    height: 107.2px;
+    width: 204.5px;
+    /* border: 1px solid red; */
+}
+.img2 img{
+    height: 107.2px;
+    width: 150.5px;
+    
+}
+.text1{
+    height: 68.56px;
+    width: 613.5px;
+    /* border: 1px solid red; */
+}
+.text2{
+    height: 137.13px;
+    width: 613.5px;
+    /* border: 1px solid red; */
+}
+.text1 b{
+    margin-top: 0px;
+    line-height: 1px;
+    font-weight: 700;
+    font-size: 16px;
+    color: #212121;
+}
+.text2 b{
+    margin-top: 0px;
+    line-height: 1px;
+    font-weight: 700;
+    font-size: 16px;
+    color: #212121;
+}
+
+.market{
+    height: 735.79px;
+    width: 1263.33px;
+    /* border: 1px solid red; */
+
+    padding-top: 320px;
+    margin: 200px;
+}
+.market_box{
+    height: 673.79px;
+    width: 1263.33px;
+    /* border: 1px solid red; */
+    display: flex;
+    margin-top: 57px;
+}
+.left_box{
+    height: 487.51px;
+    width: 631.67px;
+    /* border: 1px solid red; */
+    margin-top: 40px;
+}
+.left_box img{
+    height: 437.51px;
+    width: 631.67px;
+}
+.right_box{
+    height: 673.79px;
+    width: 631.67px;
+    /* border: 1px solid red; */
+}
+.right_box_top{
+    height: 40px;
+    width: 501.67px;
+    /* border: 1px solid blue; */
+}
+.right_box_top h5{
+    margin-top: 0px;
+    font-size: 28px;
+    font-weight: 700;
+    font-family: "Clear Sans","Helvetica Neue",Helvetica,Arial,sans-serif;
+    color: #212121;
+    margin-left: 50px;
+}
+.right_box_top h4{
+    line-height: 5px;
+    font-family: "Clear Sans","Helvetica Neue",Helvetica,Arial,sans-serif;
+    color: #212121;
+    margin-left: 50px;
+}
+.right_box_top p{
+    font-size: 16px;
+    color: #212121;
+    margin-left: 50px;
+}

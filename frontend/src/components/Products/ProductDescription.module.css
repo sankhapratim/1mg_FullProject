@@ -1,0 +1,147 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: Helvetica;
+}
+
+body {
+    background-color: #F6F6F6;
+}
+
+.descTopDiv {
+    display: flex;
+    gap: 15px;
+    width: 80%;
+    margin: auto;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    justify-content: space-between;
+    align-items: center;
+    background-color: white;
+    box-shadow: rgba(0, 0, 0, 0.07) 0px 0px 7px 0px;
+}
+
+.descImgDiv {
+    width: 32%;
+    height: 350px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: white;
+    /* box-shadow: rgba(0, 0, 0, 0.07) 0px 0px 7px 0px; */
+}
+
+.prodimg {
+    height: 60%;
+}
+
+.highlightDiv {
+    width: 32%;
+    height: 350px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    padding: 25px;
+    background-color: white;
+    /* box-shadow: rgba(0, 0, 0, 0.07) 0px 0px 7px 0px; */
+}
+
+.brand {
+    font-size: 14px;
+    color: #FF6F61;
+}
+
+.ratingDiv {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    font-size: 12px;
+    line-height: 17px;
+}
+
+.ratingDiv>div {
+    background-color: #1AAB2A;
+    color: white;
+    padding: 3px;
+    border-radius: 3px;
+    font-weight: bold;
+}
+
+.ratingDiv>p {
+    color: #FF6F61;
+    font-size: 16px;
+}
+
+.addToCartDiv {
+    width: 32%;
+    height: 350px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    padding: 25px;
+    background-color: white;
+    /* box-shadow: rgba(0, 0, 0, 0.07) 0px 0px 7px 0px; */
+}
+
+.randomDiv {
+    display: flex;
+    padding: 10px;
+    background-color: #EDF9EE;
+}
+
+.randomDiv>img {
+    width: 20px;
+}
+
+.randomDiv>p {
+    font-size: 14px;
+}
+
+.priceDiv {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.discount {
+    padding: 10px;
+    font-weight: bold;
+    color: green;
+    background-color: #EDF9EE;
+}
+
+.quantDiv {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.quantDiv>select {
+    height: 30px;
+    width: 120px;
+    padding-left: 25px;
+    font-size: 16px;
+    border: 1px solid silver;
+}
+
+.cartbtn {
+    border: none;
+    border-radius: 5px;
+    height: 42px;
+    color: white;
+    font-weight: bold;
+    background-color: #FF6F61;
+    cursor: pointer;
+}
+
+.longDesc {
+    width: 80%;
+    margin: auto;
+    margin-bottom: 20px;
+    padding: 34px;
+    font-size: 14px;
+    text-align: justify;
+    background-color: white;
+    box-shadow: rgba(0, 0, 0, 0.07) 0px 0px 7px 0px;
+}

@@ -1,0 +1,176 @@
+.paymentmain {
+    display: flex;
+    margin-top: 50px;
+}
+.payment {
+    width:18%;
+    height:500px;
+    background-color:#fff3e3 ;
+    margin-left: 12%;
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
+}
+.payment>div {
+   display: flex;
+   gap:20px;
+   margin-left: 10%;
+   padding-top:20px;
+   cursor: pointer;
+}
+.payment>div>p{
+    margin-top: 10px;
+    font-size: 18px;
+}
+.payment>div>img{
+    width: 40px;
+}
+.payment1 {
+    width:31%;
+    height:500px;
+    background-color: #ffff;
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
+    overflow:auto;
+}
+.wallet>div {
+    border: 0.001px solid #b2b2b2;
+    width:80%;
+    margin: auto;
+    margin-top: 15px;
+    padding-left: 20px;
+    margin-bottom: 10px;
+    
+}
+.wallet1 {
+    display: flex;
+    gap: 10px;
+    padding: 10px 0px;
+}
+.wallet1>img {
+    width:50px
+}
+.wallet1>p {
+    display: flex;
+    gap: 10px;
+    margin-top: 18px;
+    font-weight: 600;
+    color:#3e3e40
+}
+.wallet>div>p:nth-child(2){
+    font-size: 11px;
+    color: #3ab55d;
+    margin-bottom: 15px;
+}
+.wallet>div>p:nth-child(3){
+    color: #ff7461;
+    font-weight: 600;
+    margin-bottom: 20px;
+
+}
+.upimain {
+    
+    width:80%;
+    margin: auto;
+    margin-top: 15px;
+    padding-left: 20px;
+    margin-bottom: 10px;
+}
+.upimain>p:nth-child(1){
+    font-weight: 600;
+}
+.upi {
+    display: flex;
+    gap:20px;
+    margin-bottom: 20px;
+}
+.upi>p{
+    margin-top: 20px;
+}
+.upi>img {
+    width: 30px;
+    margin-top: 15px;
+}
+.upimain>p:nth-child(4){
+    font-weight: 600;
+    margin-top: 20px;
+}
+.upimain>p:nth-child(5){
+    margin: 20px 0px;
+}
+.upimain>p:nth-child(7){
+    margin-top: 4px;
+    font-size: 11px;
+    margin-bottom: 40px;
+}
+.bankingmain {
+    width:80%;
+    margin: auto;
+    margin-top: 35px;
+    padding-left: 20px;
+    margin-bottom: 10px;
+}
+.banking1 {
+    
+    display: flex;
+    gap:20px;
+}
+.banking1>div {
+    border: 0.001px solid #b2b2b2;
+    display: flex;
+    gap: 20px;
+    height: 70px;
+    width: 80%;
+    margin-bottom: 25px;
+}
+.banking1>div>img{
+    width:40px;
+    height: 30px;
+    margin: 20px 10px;
+}
+.banking1>div>p{
+    font-size: 18px;
+    font-weight: 600;
+    margin-top: 25px;
+}
+.banking2{
+  width: 100%;
+}
+.payondelivery{
+    margin: auto;
+    margin-top: 30px;
+    width: 90%;
+    height: 100px;
+    display: flex;
+    border: 2.5px solid #ff7461;
+    border-radius: 5px;
+    gap:20px;
+    
+}
+.payondelivery>img{
+    width:50px;
+    height: 40px;
+    margin-top: 20px;
+    margin-left: 20px;
+}
+.payondelivery>p{
+   margin-top: 35px;
+   font-weight: 700;
+}
+.rightpayment {
+    width: 30%;
+    margin-left: 40px;
+}
+.rightpayment>div {
+    width: 100%;
+    background-color: #ffff;
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
+}
+.rightpayment>div>p{
+    padding: 20px;
+    font-size: 15px;
+}
+.rightpayment>div>p:nth-child(2){
+    text-align: right;
+    color: black;
+}
+.rightpayment>div:nth-child(2){
+    margin-bottom: 25px;
+}

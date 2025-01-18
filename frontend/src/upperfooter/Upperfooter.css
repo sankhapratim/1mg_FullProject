@@ -1,0 +1,9 @@
+.last-sec-div1 {
+    padding: 30px;
+    background-color: white;
+    text-align: left;
+}
+
+.last-sec-div1>p {
+    color: grey;
+}
